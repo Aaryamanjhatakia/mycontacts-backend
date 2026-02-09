@@ -5,12 +5,12 @@ const dotenv = require("dotenv").config();
 const contactRoutes = require("./routes/contactRoutes");
 
 //MongoDb Connection
-const connectDb = require("./config/mongo");
-connectDb();
+//const connectDb = require("./config/mongo");
+//connectDb();
 
 //MySql Connection
-const { connectMySql } = require("./config/mysql");
-connectMySql();
+//const { connectMySql } = require("./config/mysql");
+//connectMySql();
 
 //Sequelize(ORM) connection
 const { connectSequelize } = require("./config/sequelize");

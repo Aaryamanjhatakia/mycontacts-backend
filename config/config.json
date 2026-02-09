@@ -1,23 +1,17 @@
 {
-  "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+  "mssql": {
+    "dialect": "mssql",
+    "host": "localhost",
+    "port": 1433,
+    "database": "mycontacts",
+    "username": "node_user",
+    "password": "Aaryaman0807"
   },
-  "test": {
+  "mysql": {
     "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "password": "Aaryaman0807",
+    "database": "mycontacts",
+    "host": "localhost",
     "dialect": "mysql"
   }
 }
